@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/django_object_mapper
+   */site-packages/django_object_mapper
+
+[run]
+branch = true
+source =
+    django_object_mapper
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
